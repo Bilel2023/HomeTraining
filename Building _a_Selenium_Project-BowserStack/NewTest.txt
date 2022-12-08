@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 again Eclipse change
+=======
+Github Change in Master branch
+>>>>>>> branch 'master' of https://github.com/Bilel2023/HomeTraining.git
