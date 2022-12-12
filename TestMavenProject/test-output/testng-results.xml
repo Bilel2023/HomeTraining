@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-11T08:47:32 CET" name="All Suite" finished-at="2022-12-11T08:47:32 CET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Suite -->
+  <suite started-at="2022-12-11T08:47:32 CET" name="Suite1" finished-at="2022-12-11T08:47:32 CET" duration-ms="48">
+    <groups>
+      <group name="SANITY">
+        <method signature="TestClass1.testCase1()[pri:0, instance:com.BaseTest1.TestClass1@1817d444]" name="testCase1" class="com.BaseTest1.TestClass1"/>
+        <method signature="TestClass1.testCase2()[pri:0, instance:com.BaseTest1.TestClass1@1817d444]" name="testCase2" class="com.BaseTest1.TestClass1"/>
+      </group> <!-- SANITY -->
+    </groups>
+    <test started-at="2022-12-11T08:47:32 CET" name="Test1" finished-at="2022-12-11T08:47:32 CET" duration-ms="48">
+      <class name="com.BaseTest1.TestClass1">
+        <test-method signature="testCase1()[pri:0, instance:com.BaseTest1.TestClass1@1817d444]" started-at="2022-12-11T08:47:32 CET" name="testCase1" finished-at="2022-12-11T08:47:32 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.BaseTest1.TestClass1@1817d444]" started-at="2022-12-11T08:47:32 CET" name="testCase2" finished-at="2022-12-11T08:47:32 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.BaseTest1.TestClass1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+  <suite started-at="2022-12-11T08:47:32 CET" name="Suite2" finished-at="2022-12-11T08:47:32 CET" duration-ms="4">
+    <groups>
+      <group name="SANITY">
+        <method signature="TestClass2.testCase4()[pri:0, instance:com.BaseTest2.TestClass2@6379eb]" name="testCase4" class="com.BaseTest2.TestClass2"/>
+        <method signature="TestClass2.testCase5()[pri:0, instance:com.BaseTest2.TestClass2@6379eb]" name="testCase5" class="com.BaseTest2.TestClass2"/>
+      </group> <!-- SANITY -->
+    </groups>
+    <test started-at="2022-12-11T08:47:32 CET" name="Test2" finished-at="2022-12-11T08:47:32 CET" duration-ms="4">
+      <class name="com.BaseTest2.TestClass2">
+        <test-method signature="testCase4()[pri:0, instance:com.BaseTest2.TestClass2@6379eb]" started-at="2022-12-11T08:47:32 CET" name="testCase4" finished-at="2022-12-11T08:47:32 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:0, instance:com.BaseTest2.TestClass2@6379eb]" started-at="2022-12-11T08:47:32 CET" name="testCase5" finished-at="2022-12-11T08:47:32 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+      </class> <!-- com.BaseTest2.TestClass2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
